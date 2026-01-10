@@ -1,0 +1,24 @@
+/* WeeklyView.css */
+
+.weekly-view h2 {
+  margin-bottom: 12px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: 120px repeat(7, 1fr);
+  border: 1px solid #ccc;
+}
+
+.day-header,
+.time-slot,
+.calendar-cell,
+.time-header {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.calendar-cell {
+  min-height: 60px;
+}

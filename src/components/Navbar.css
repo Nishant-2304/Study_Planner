@@ -1,0 +1,79 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.nav-left {
+  width: 15vw;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+
+.nav-right{
+  width: 30vw;
+  padding-right: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-right a {
+  position: relative;
+  display: inline-block; 
+  margin: auto;
+  text-decoration: none;
+  color: var(--text-secondary);
+  opacity: 0.8;
+  font-size: 1.3vw;
+}
+
+.nav-right a::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #ffcc00;
+  transition: width 0.3s ease;
+}
+
+.nav-right a:hover {
+  opacity: 1;
+}
+
+.nav-right a:hover::after {
+  width: 100%;
+}
+
+
+.navbar {
+  height: 60px;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

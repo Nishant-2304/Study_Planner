@@ -1,0 +1,54 @@
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vw;
+    width: 100%;
+}
+
+.home_left_container{
+    display: flex;
+    flex-direction:column;
+    height: 60%;
+    width: 30%;
+    margin-right: 10vw;
+    justify-content: center;   
+}
+
+.home_left_container h1{
+    font-size: 3.5vw
+}
+
+.home_left_container p{
+    font-size: 1.8vw
+}
+
+.home_right_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 45%
+}
+
+.btn_container{
+    display: flex;
+    width:100%;
+}
+
+.home_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 12vw;
+    font-size: 1.5vw;
+    background: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 2vw;
+    margin-top: 2vw;
+}

@@ -1,0 +1,47 @@
+/* Home.css */
+
+.home {
+  min-height: 60vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header row */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Toggle container */
+.mode-toggle {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Toggle buttons */
+.mode-toggle button {
+  padding: 6px 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  color: var(--text-secondary);
+}
+
+/* Active state */
+.mode-toggle button.active {
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+/* Content area */
+.view-container {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid var(--border);
+}
