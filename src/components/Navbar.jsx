@@ -27,7 +27,7 @@ export default function Navbar({ theme, setTheme }) {
         <a href="#">Home</a>
         <a href="#">Tasks</a>
         <a href="#">Time Table</a>
-        <a href="#">Leaderboard</a>
+        <a href="#">Subjects</a>
       </div>
     </nav>
   );

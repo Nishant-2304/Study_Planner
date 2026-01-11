@@ -3,26 +3,26 @@ import { readData, writeData } from "../utils/fileHandler.js";
 
 const router = express.Router();
 
-// get today's timetable
+// get weekly timetable
 router.get("/", (req, res) => {
   const data = readData();
-  res.json(data.today);
+  res.json(data.weekly);
 });
 
-// update a slot
+// update a cell
 router.patch("/:id", (req, res) => {
   const data = readData();
-  const id = Number(req.params.id);
+  const { id } = req.params;
 
-  const slot = data.today.find(s => s.id === id);
-  if (!slot) {
-    return res.status(404).json({ error: "Slot not found" });
+  const cell = data.weekly.find(c => c.id === id);
+  if (!cell) {
+    return res.status(404).json({ error: "Cell not found" });
   }
 
-  slot.task = req.body.studyId;
+  cell.task = req.body.subjectId;
   writeData(data);
 
-  res.json(slot);
+  res.json(cell);
 });
 
 export default router;

@@ -1,14 +1,445 @@
 {
   "tasks": [],
   "today": [
-    { "id": 1, "time": "7:00 – 9:00", "task": "" },
-    { "id": 2, "time": "9:00 – 11:00", "task": "" },
-    { "id": 3, "time": "11:00 – 1:00", "task": "" },
-    { "id": 4, "time": "1:00 – 3:00", "task": "" },
-    { "id": 5, "time": "3:00 – 5:00", "task": "" },
-    { "id": 6, "time": "5:00 – 7:00", "task": "" },
-    { "id": 7, "time": "7:00 – 9:00", "task": "" },
-    { "id": 8, "time": "9:00 – 11:00", "task": "" },
-    { "id": 9, "time": "11:00 – 1:00", "task": "" }
+    {
+      "id": 1,
+      "time": "7:00 – 9:00",
+      "subjectId": null
+    },
+    {
+      "id": 2,
+      "time": "9:00 – 11:00",
+      "subjectId": null
+    },
+    {
+      "id": 3,
+      "time": "11:00 – 1:00",
+      "subjectId": null
+    },
+    {
+      "id": 4,
+      "time": "1:00 – 3:00",
+      "subjectId": null
+    },
+    {
+      "id": 5,
+      "time": "3:00 – 5:00",
+      "subjectId": null
+    },
+    {
+      "id": 6,
+      "time": "5:00 – 7:00",
+      "subjectId": null
+    },
+    {
+      "id": 7,
+      "time": "7:00 – 9:00",
+      "subjectId": null
+    },
+    {
+      "id": 8,
+      "time": "9:00 – 11:00",
+      "subjectId": null
+    },
+    {
+      "id": 9,
+      "time": "11:00 – 1:00",
+      "subjectId": null
+    }
+  ],
+  "weekly": [
+    {
+      "id": "Mon_7am – 9am",
+      "day": "Mon",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_9am – 11am",
+      "day": "Mon",
+      "time": "9am – 11am",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_11am – 1pm",
+      "day": "Mon",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_1pm – 3pm",
+      "day": "Mon",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_3pm – 5pm",
+      "day": "Mon",
+      "time": "3pm – 5pm",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_5pm – 7pm",
+      "day": "Mon",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_7pm – 9pm",
+      "day": "Mon",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_9pm – 11pm",
+      "day": "Mon",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Mon_11pm – 1am",
+      "day": "Mon",
+      "time": "11pm – 1am",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_7am – 9am",
+      "day": "Tue",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_9am – 11am",
+      "day": "Tue",
+      "time": "9am – 11am",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_11am – 1pm",
+      "day": "Tue",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_1pm – 3pm",
+      "day": "Tue",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_3pm – 5pm",
+      "day": "Tue",
+      "time": "3pm – 5pm",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_5pm – 7pm",
+      "day": "Tue",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_7pm – 9pm",
+      "day": "Tue",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_9pm – 11pm",
+      "day": "Tue",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Tue_11pm – 1am",
+      "day": "Tue",
+      "time": "11pm – 1am",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_7am – 9am",
+      "day": "Wed",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_9am – 11am",
+      "day": "Wed",
+      "time": "9am – 11am",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_11am – 1pm",
+      "day": "Wed",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_1pm – 3pm",
+      "day": "Wed",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_3pm – 5pm",
+      "day": "Wed",
+      "time": "3pm – 5pm",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_5pm – 7pm",
+      "day": "Wed",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_7pm – 9pm",
+      "day": "Wed",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_9pm – 11pm",
+      "day": "Wed",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Wed_11pm – 1am",
+      "day": "Wed",
+      "time": "11pm – 1am",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_7am – 9am",
+      "day": "Thu",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_9am – 11am",
+      "day": "Thu",
+      "time": "9am – 11am",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_11am – 1pm",
+      "day": "Thu",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_1pm – 3pm",
+      "day": "Thu",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_3pm – 5pm",
+      "day": "Thu",
+      "time": "3pm – 5pm",
+      "task": "phy lab"
+    },
+    {
+      "id": "Thu_5pm – 7pm",
+      "day": "Thu",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_7pm – 9pm",
+      "day": "Thu",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_9pm – 11pm",
+      "day": "Thu",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Thu_11pm – 1am",
+      "day": "Thu",
+      "time": "11pm – 1am",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_7am – 9am",
+      "day": "Fri",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_9am – 11am",
+      "day": "Fri",
+      "time": "9am – 11am",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_11am – 1pm",
+      "day": "Fri",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_1pm – 3pm",
+      "day": "Fri",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_3pm – 5pm",
+      "day": "Fri",
+      "time": "3pm – 5pm",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_5pm – 7pm",
+      "day": "Fri",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_7pm – 9pm",
+      "day": "Fri",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_9pm – 11pm",
+      "day": "Fri",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Fri_11pm – 1am",
+      "day": "Fri",
+      "time": "11pm – 1am",
+      "task": "acm interview"
+    },
+    {
+      "id": "Sat_7am – 9am",
+      "day": "Sat",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_9am – 11am",
+      "day": "Sat",
+      "time": "9am – 11am",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_11am – 1pm",
+      "day": "Sat",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_1pm – 3pm",
+      "day": "Sat",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_3pm – 5pm",
+      "day": "Sat",
+      "time": "3pm – 5pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_5pm – 7pm",
+      "day": "Sat",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_7pm – 9pm",
+      "day": "Sat",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_9pm – 11pm",
+      "day": "Sat",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sat_11pm – 1am",
+      "day": "Sat",
+      "time": "11pm – 1am",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_7am – 9am",
+      "day": "Sun",
+      "time": "7am – 9am",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_9am – 11am",
+      "day": "Sun",
+      "time": "9am – 11am",
+      "subjectId": null,
+      "task": 1768163399366
+    },
+    {
+      "id": "Sun_11am – 1pm",
+      "day": "Sun",
+      "time": "11am – 1pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_1pm – 3pm",
+      "day": "Sun",
+      "time": "1pm – 3pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_3pm – 5pm",
+      "day": "Sun",
+      "time": "3pm – 5pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_5pm – 7pm",
+      "day": "Sun",
+      "time": "5pm – 7pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_7pm – 9pm",
+      "day": "Sun",
+      "time": "7pm – 9pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_9pm – 11pm",
+      "day": "Sun",
+      "time": "9pm – 11pm",
+      "subjectId": null
+    },
+    {
+      "id": "Sun_11pm – 1am",
+      "day": "Sun",
+      "time": "11pm – 1am",
+      "subjectId": null
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1768163389300,
+      "name": "sub1",
+      "color": "#4f46e5",
+      "targetHours": 10
+    },
+    {
+      "id": 1768163399366,
+      "name": "sub2",
+      "color": "#e64c96",
+      "targetHours": 8
+    }
   ]
 }

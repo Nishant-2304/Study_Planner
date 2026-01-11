@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import TT from "./components/TT";
 import Todo from "./components/To-do";
+import Subjects from "./components/Subjects";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <>
       <Navbar theme={theme} setTheme={setTheme} />
       <Home />
+      <Subjects />
       <TT />
       <Todo />
     </>
